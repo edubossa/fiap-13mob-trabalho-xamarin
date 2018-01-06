@@ -1,0 +1,20 @@
+﻿<Properties StartupConfiguration="{B41AE16B-5622-4699-9BB4-ADADFC0A5756}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="XF.Atividade2/ViewModel/StudentViewModel.cs">
+    <Files>
+      <File FileName="XF.Atividade2/View/StudentView.xaml" Line="36" Column="1" />
+      <File FileName="XF.Atividade2/View/NewStudentView.xaml" Line="19" Column="1" />
+      <File FileName="XF.Atividade2/ViewModel/StudentViewModel.cs" Line="41" Column="10" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/wallace/Projects/XF.Atividade2/XF.Atividade2/ViewModel/StudentViewModel.cs" relfile="XF.Atividade2/ViewModel/StudentViewModel.cs" line="33" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.XF.Atividade2.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.6F9A53D3-5720-41F9-8EEA-6904570574AA" automaticSigning="False">
+    <MonoDevelop.MacDev.AppleDevelopmentTeam />
+  </MonoDevelop.Ide.ItemProperties.XF.Atividade2.iOS>
+</Properties>

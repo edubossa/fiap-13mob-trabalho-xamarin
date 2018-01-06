@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="XF.Atividade2.View.StudentView">
+
+    <!-- <ContentPage.Content>
+        <StackLayout Padding="20">
+        <Label Text="Aluno" Font="20" />
+        <Label Text="{Binding Name}" />
+        <Label Text="{Binding RM}" />
+        <Label Text="{Binding Email}" />
+    </StackLayout>
+    </ContentPage.Content> -->
+
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="Adicionar" x:Name="btnAddStudent" Command="{Binding OnNewCMD}" Order="Primary" Priority="1" />
+    </ContentPage.ToolbarItems>
+    
+    <ContentPage.Content>
+        <StackLayout Padding="20">          
+            <Label Text="Alunos" Font="18" />
+            <ListView x:Name="lstStudents" ItemsSource="{Binding Students}" >
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <StackLayout Padding="5,0,5,0">
+                                <Label Text="{Binding Name}" Font="14" />
+                                <Label Text="{Binding Email}" Font="10" />
+                            </StackLayout>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </StackLayout>
+    </ContentPage.Content>
+    
+</ContentPage>

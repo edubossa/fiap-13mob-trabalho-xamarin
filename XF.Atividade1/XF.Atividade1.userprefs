@@ -1,0 +1,16 @@
+﻿<Properties StartupConfiguration="{307B7AEA-923B-4A9F-956A-1E2BDF5EE476}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="XF.Atividade1/XF.Atividade1Page.xaml.cs">
+    <Files>
+      <File FileName="XF.Atividade1/XF.Atividade1Page.xaml.cs" Line="21" Column="9" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.XF.Atividade1.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.6F9A53D3-5720-41F9-8EEA-6904570574AA">
+    <MonoDevelop.MacDev.AppleDevelopmentTeam />
+  </MonoDevelop.Ide.ItemProperties.XF.Atividade1.iOS>
+  <MultiItemStartupConfigurations />
+</Properties>

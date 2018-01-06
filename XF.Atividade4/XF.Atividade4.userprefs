@@ -1,0 +1,22 @@
+﻿<Properties StartupConfiguration="{4A5FC898-822A-4440-B6DF-35E4DC793D15}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="XF.Atividade4/ViewModel/ProfessorViewModel.cs">
+    <Files>
+      <File FileName="XF.Atividade4/ViewModel/ProfessorViewModel.cs" Line="74" Column="49" />
+    </Files>
+    <Pads>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.XF.Atividade4.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.6F9A53D3-5720-41F9-8EEA-6904570574AA">
+    <MonoDevelop.MacDev.AppleDevelopmentTeam />
+  </MonoDevelop.Ide.ItemProperties.XF.Atividade4.iOS>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.XF.Atividade4.Droid PreferredExecutionTarget="Android.Android_Accelerated_Nougat" />
+</Properties>

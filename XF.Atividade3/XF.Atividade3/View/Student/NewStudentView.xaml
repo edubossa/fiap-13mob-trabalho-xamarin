@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="XF.Atividade3.View.Student.NewStudentView">
+	<ContentPage.ToolbarItems>
+        <ToolbarItem Text="Salvar" x:Name="btnSave" Command="{Binding OnAddStudentCMD}" 
+           CommandParameter="{Binding BindingContext, Source={x:Reference Name=rootStudent}}" Order="Primary" Priority="1" />
+        <ToolbarItem Text="Cancelar" x:Name="btnCancel" Command="{Binding OnExitCMD}" Order="Primary" Priority="2" />
+    </ContentPage.ToolbarItems>
+    <ContentPage.Content>
+        <StackLayout x:Name="rootStudent" Padding="7" BindingContext="{Binding Selected}">
+            <Entry x:Name="txtName" Placeholder="Nome" Text="{Binding Name}" />
+            <Entry x:Name="txtRM" Placeholder="RM" Text="{Binding RM}" />
+            <Entry x:Name="txtEmail" Placeholder="E-mail" Text="{Binding Email}" />
+            <TableView>
+                <TableView.Root>
+                    <TableSection>
+                        <SwitchCell Text="Aprovado?" On="{Binding Approved}" />
+                    </TableSection>
+                </TableView.Root>
+            </TableView>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

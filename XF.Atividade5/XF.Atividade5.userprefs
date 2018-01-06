@@ -1,0 +1,37 @@
+﻿<Properties StartupConfiguration="{9E21BA3C-BA1E-41BD-A633-8067398D1ABA}|Default">
+  <MonoDevelop.Ide.ItemProperties.XF.Atividade5.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.6F9A53D3-5720-41F9-8EEA-6904570574AA" automaticSigning="False">
+    <MonoDevelop.MacDev.AppleDevelopmentTeam />
+  </MonoDevelop.Ide.ItemProperties.XF.Atividade5.iOS>
+  <MonoDevelop.Ide.Workbench ActiveDocument="XF.Atividade5/ViewModel/ContatoViewModel.cs">
+    <Files>
+      <File FileName="XF.Atividade5/ViewModel/ContatoViewModel.cs" Line="16" Column="36" />
+      <File FileName="XF.Atividade5/View/ContatosView.xaml" Line="12" Column="53" />
+      <File FileName="XF.Atividade5/View/DetalheView.xaml" Line="31" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="XF.Atividade5" expanded="True">
+            <Node name="XF.Atividade5" expanded="True" selected="True" />
+            <Node name="XF.Atividade5.Droid" expanded="True">
+              <Node name="Assets" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/wallace/Projects/XF.Atividade5/XF.Atividade5/ViewModel/ContatoViewModel.cs" relfile="XF.Atividade5/ViewModel/ContatoViewModel.cs" line="45" column="40" />
+      <Breakpoint file="/Users/wallace/Projects/XF.Atividade5/XF.Atividade5/ViewModel/ContatoViewModel.cs" relfile="XF.Atividade5/ViewModel/ContatoViewModel.cs" line="91" column="23" />
+      <Breakpoint file="/Users/wallace/Projects/XF.Atividade5/iOS/AddressBook_iOS.cs" relfile="iOS/AddressBook_iOS.cs" line="18" column="1" />
+      <Breakpoint file="/Users/wallace/Projects/XF.Atividade5/XF.Atividade5/ViewModel/ContatoViewModel.cs" relfile="XF.Atividade5/ViewModel/ContatoViewModel.cs" line="78" column="1" />
+      <Breakpoint file="/Users/wallace/Projects/XF.Atividade5/XF.Atividade5/ViewModel/ContatoViewModel.cs" relfile="XF.Atividade5/ViewModel/ContatoViewModel.cs" line="23" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.XF.Atividade5.Droid PreferredExecutionTarget="Android.Android_Accelerated_Nougat" />
+</Properties>

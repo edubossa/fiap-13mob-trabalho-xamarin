@@ -1,0 +1,25 @@
+﻿<Properties StartupConfiguration="{886612E9-49CC-4E65-98C0-3CB986403DC1}|Default">
+  <MonoDevelop.Ide.Workbench>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="XF.Atividade3" expanded="True">
+            <Node name="XF.Atividade3" expanded="True" />
+            <Node name="XF.Atividade3.Droid" expanded="True" selected="True" />
+            <Node name="XF.Atividade3.iOS" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.XF.Atividade3.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.6F9A53D3-5720-41F9-8EEA-6904570574AA">
+    <MonoDevelop.MacDev.AppleDevelopmentTeam />
+  </MonoDevelop.Ide.ItemProperties.XF.Atividade3.iOS>
+  <MonoDevelop.Ide.ItemProperties.XF.Atividade3.Droid PreferredExecutionTarget="Android.Android_Accelerated_Nougat" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+</Properties>
