@@ -59,7 +59,7 @@ namespace XF.Atividade4.ViewModel
         }
 
         public async Task Carregar() {
-            await ProfessorRepository.GetProfessoresSqlAzureAsync().ContinueWith(retorno => {
+            await ProfessorRepository.GetProfessores().ContinueWith(retorno => {
                 CopiarListaProfessores = retorno.Result.ToList();
             });
             Filtro();
@@ -84,7 +84,7 @@ namespace XF.Atividade4.ViewModel
         public async void Adicionar(Professor paramProfessor) {
             if ((paramProfessor == null) || (string.IsNullOrWhiteSpace(paramProfessor.Nome))) {
                 await App.Current.MainPage.DisplayAlert("Atenção", "O campo nome é obrigatório", "OK");
-            } else if (await ProfessorRepository.PostProfessorSqlAzureAsync(paramProfessor)) {
+            } else if (await ProfessorRepository.PostProfessor(paramProfessor)) {
                 await App.Current.MainPage.Navigation.PopAsync();
             } else {
                 await App.Current.MainPage.DisplayAlert("Falhou", "Desculpe, ocorreu um erro inesperado =(", "OK");
@@ -97,7 +97,7 @@ namespace XF.Atividade4.ViewModel
 
         public async void Remover() {
             if (await App.Current.MainPage.DisplayAlert("Atenção?", string.Format("Tem certeza que deseja remover o {0}?", Selecionado.Nome), "Sim", "Não")) {
-                if (await ProfessorRepository.DeleteProfessorSqlAzureAsync(Selecionado.Id.ToString())) {
+                if (await ProfessorRepository.DeleteProfessor(Selecionado.Id.ToString())) {
                     CopiarListaProfessores.Remove(Selecionado);
                     await Carregar();
                 } else {

@@ -1,13 +1,9 @@
 ﻿<Properties StartupConfiguration="{4A5FC898-822A-4440-B6DF-35E4DC793D15}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="XF.Atividade4/ViewModel/ProfessorViewModel.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="XF.Atividade4/Model/Professor.cs">
     <Files>
-      <File FileName="XF.Atividade4/ViewModel/ProfessorViewModel.cs" Line="74" Column="49" />
+      <File FileName="XF.Atividade4/ViewModel/ProfessorViewModel.cs" Line="83" Column="9" />
+      <File FileName="XF.Atividade4/Model/Professor.cs" Line="20" Column="94" />
     </Files>
-    <Pads>
-      <Pad Id="MonoDevelop.Debugger.WatchPad">
-        <State />
-      </Pad>
-    </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

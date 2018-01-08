@@ -17,7 +17,7 @@ namespace XF.Atividade4.Model
     public static class ProfessorRepository {
         private static IEnumerable<Professor> professoresSqlAzure;
 
-        public static async Task<ObservableCollection<Professor>> GetProfessoresSqlAzureAsync() {
+        public static async Task<ObservableCollection<Professor>> GetProfessores() {
             var httpRequest = new HttpClient();
             var stream = await httpRequest.GetStreamAsync("http://apiaplicativofiap.azurewebsites.net/api/professors");
             var professorSerializer = new DataContractJsonSerializer(typeof(List<Professor>));
@@ -25,7 +25,7 @@ namespace XF.Atividade4.Model
             return new ObservableCollection<Professor>(professoresSqlAzure);
         }
 
-        public static async Task<bool> PostProfessorSqlAzureAsync(Professor profAdd) {
+        public static async Task<bool> PostProfessor(Professor profAdd) {
             if (profAdd == null) {
                 return false;
             }
@@ -41,7 +41,7 @@ namespace XF.Atividade4.Model
             return false;
         }
 
-        public static async Task<bool> DeleteProfessorSqlAzureAsync(string profId) {
+        public static async Task<bool> DeleteProfessor(string profId) {
             if (string.IsNullOrWhiteSpace(profId)) {
                 return false;
             } 
