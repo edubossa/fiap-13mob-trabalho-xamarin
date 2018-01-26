@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+    x:Class="XF.Atividade6.View.NewAtividadeView">
+    
+	<ContentPage.ToolbarItems>
+        <ToolbarItem Text="Salvar" x:Name="btnSalvar" Command="{Binding OnAdicionarAtividadeCMD}" CommandParameter="{Binding BindingContext, Source={x:Reference Name=rootAtividade}}" Order="Primary" Priority="1" />
+        <ToolbarItem Text="Cancelar" x:Name="btnCancelar" Command="{Binding OnSairCMD}" Order="Primary" Priority="2" />
+    </ContentPage.ToolbarItems>
+    
+    <ContentPage.Content>
+        <StackLayout x:Name="rootAtividade" Padding="7" BindingContext="{Binding Selecionado}">
+            <Label Text="Data de Cadastro" FontSize="12" HorizontalOptions="Center" TextColor="#000000"/> 
+            <DatePicker 
+               MinimumDate="01/01/1970" 
+               MaximumDate="01/01/2100"
+               Format="dd/MM/yyyy"
+               DateSelected="OnDataCadastroSelected"
+            />
+            <Label Text="Data de Entrega" FontSize="12" HorizontalOptions="Center" TextColor="#000000"/> 
+            <DatePicker
+               MinimumDate="01/01/1970" 
+               MaximumDate="01/01/2100"
+               Format="dd/MM/yyyy"
+               DateSelected="OnDataEntregaSelected"
+            /> 
+             <Picker Title="Selecione a avaliaçao" SelectedItem="{Binding tipoAvaliacao}">
+                <Picker.Items>
+                    <x:String>Avaliacao Parcial</x:String>
+                    <x:String>Avaliacao Substitutiva</x:String>
+                </Picker.Items>
+            </Picker>
+            <Entry x:Name="txtDescricao" Placeholder="Descrição" Text="{Binding descricao}" />
+            <Picker Title="Selecione a Nota" SelectedItem="{Binding valorAtividade}">
+                <Picker.Items>
+                    <x:String>0</x:String>
+                    <x:String>1</x:String>
+                    <x:String>2</x:String>
+                    <x:String>3</x:String>
+                    <x:String>4</x:String>
+                    <x:String>5</x:String>
+                    <x:String>6</x:String>
+                    <x:String>7</x:String>
+                    <x:String>8</x:String>
+                    <x:String>9</x:String>
+                    <x:String>10</x:String>
+                </Picker.Items>
+            </Picker>
+        </StackLayout>
+    </ContentPage.Content>
+    
+</ContentPage>
