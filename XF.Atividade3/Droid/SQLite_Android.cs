@@ -12,7 +12,7 @@ namespace XF.Atividade3.Droid
         public SQLite_Android() { }
 
         public SQLite.SQLiteConnection GetConexao() {
-            var arquivodb = "fiapdb.db";
+            var arquivodb = "fiapdbandroid.db";
             string caminho = System.Environment.GetFolderPath(System.Environment.SpecialFolder.Personal);
             var local = Path.Combine(caminho, arquivodb);
             var conexao = new SQLite.SQLiteConnection(local);
